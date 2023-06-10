@@ -4,8 +4,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Products from './components/Products';
+import About from './components/About';
 import Cart from './components/Cart';
 import Product from './components/Product';
+import Footer from './components/Footer';
 import store from './redux/store';
 
 const App = () => {
@@ -18,7 +20,9 @@ const App = () => {
           <Route path="/products" element={<Products />} />
           <Route path="/products/:id" element={<Product />} />
           <Route path="/cart" element={<Cart/>} />
+          <Route path="/about" element={<About/>} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </Provider>
   );
