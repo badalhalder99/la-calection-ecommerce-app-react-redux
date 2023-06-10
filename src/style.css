@@ -14,9 +14,11 @@ ul {
 .nav-link {
   color: black;
 }
-.nav-link:hover,
-.nav-link:active {
-  color: rgb(13, 0, 128);
+.nav-link:hover{
+  color: red;
+}
+.navbar-nav .nav-link.active {
+  color: red;
 }
 .navbar-brand {
   color: #000;

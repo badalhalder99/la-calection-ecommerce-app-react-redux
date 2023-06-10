@@ -6,7 +6,7 @@ const Slider = () => {
       <div>
         <img
           src="https://i.ibb.co/0mnV5pR/ecommerce.jpg"
-          className="d-block w-100 img-fluid animate__animated animate__fadeIn"
+          className="w-100 img-fluid animate__animated animate__fadeIn"
           alt="Slider Image"
         />
       </div>
